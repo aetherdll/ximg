@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ximg"
+version = "0.1.0"
+description = "A 100% pure Python multi-format disk and file system image builder and extractor."
+readme = "README.md"
+authors = [
+    { name = "7 Develoment, Ismail Yusuf", email = "yusufvizviz7@gmail.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Filesystems",
+]
+requires-python = ">=3.7"
+dependencies = [
+    # N/A
+]
+
+[project.urls]
+Homepage = "https://github.com/aetherdll/ximg"
+Repository = "https://github.com/aetherdll/ximg.git"
+
+[project.scripts]
+ximg = "ximg.cli:main"
